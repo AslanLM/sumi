@@ -6,7 +6,7 @@
 
   It's a high-performance process monitor built with Rust that makes debugging feel like using a modern IDE. Hope you find it useful too! 🚀
 
-  !sumi preview (https://github.com/AslanLM/sumi/releases/download/v0.1.0/preview.gif)
+  ![sumi preview](https://github.com/AslanLM/sumi/releases/download/v0.1.0/preview.gif)
 
   ---
 
@@ -22,15 +22,19 @@
 
   ## 🚀 Installation
 
-  1. From Source (Recommended)
-  You need to have Rust (https://www.rust-lang.org/tools/install) installed on your system.
+> **From Source (Recommended)
+  You need to have `Rust` (https://www.rust-lang.org/tools/install) installed on your system.**
 
-   1 # Clone the repository
-   2 git clone https://github.com/AslanLM/sumi.git
-   3 cd sumi
-   4
-   5 # Install it globally
-   6 cargo install --path .
+   ### Clone the repository
+   ```bash
+   git clone https://github.com/AslanLM/sumi.git
+   cd sumi
+   ```
+   
+  ### Install it globally
+  ```bash
+   cargo install --path .
+  ```
 
   This will install the sumi binary into your ~/.cargo/bin directory.
 
@@ -41,15 +45,15 @@
   1. Basic command monitoring:
   Just wrap any command with sumi:
 
-   1 sumi npm run dev
+    sumi npm run dev
 
   2. Monitoring a script:
 
-   1 sumi ./my-script.sh
+    sumi ./my-script.sh
 
   3. Open the Dashboard:
   Once running, open your browser at:
-  👉 http://localhost:8080 (http://localhost:8080)
+   http://localhost:8080 (http://localhost:8080)
 
   ---
 
