@@ -1,5 +1,5 @@
 
-  sumi 🌸
+  # sumi 🌸
 
   I created sumi because I was tired of scrolling through messy terminal logs to find errors. I wanted a way to see my process output and errors separately, in a clean, dark-mode web dashboard—and I thought
   that would be pretty kul.
@@ -10,7 +10,7 @@
 
   ---
 
-  🧩 Features
+  ## 🧩 Features
 
    * Side-by-Side View: Separate columns for stdout and stderr.
    * Real-time Streaming: Powered by WebSockets for zero-latency updates.
@@ -20,7 +20,7 @@
 
   ---
 
-  🚀 Installation
+  ## 🚀 Installation
 
   1. From Source (Recommended)
   You need to have Rust (https://www.rust-lang.org/tools/install) installed on your system.
@@ -36,7 +36,7 @@
 
   ---
 
-  🎬 Usage
+  ## 🎬 Usage
 
   1. Basic command monitoring:
   Just wrap any command with sumi:
@@ -53,7 +53,7 @@
 
   ---
 
-  ⚙️ How it works
+  ## ⚙️ How it works
 
   sumi acts as a wrapper for your process. It intercepts every line of output and broadcasts it through a WebSocket server.
 
