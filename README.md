@@ -6,7 +6,7 @@
 
   It's a high-performance process monitor built with Rust that makes debugging feel like using a modern IDE. Hope you find it useful too! 🚀
 
-  ![sumi preview](https://github.com/AslanLM/sumi/releases/download/v0.1.0/preview.gif)
+  ![sumi preview](https://github.com/AslanLM/sumi/releases/download/v0.1.0/sumi.gif)
 
   ---
 
